@@ -1,0 +1,41 @@
+.body {
+  background-color: pink;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+label {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "**Breakfast**\n* Oatmeal with Grapefruit, Raisins, and Unsweetened Shredded Coconut\n  * Oatmeal is a good source of fiber, which can help relieve constipation. Grapefruit and raisins provide vitamin C, which can help reduce inflammation. Coconut is a good source of healthy fats, which can help regulate hormones.\n* Scrambled Eggs with Sliced Mushrooms and Baby Spinach\n  * Eggs are a good source of protein, which can help provide energy. Mushrooms are a good source of antioxidants, which can help reduce inflammation. Spinach is a good source of iron, which can help prevent fatigue.\n**Lunch**\n* Mixed Bean Veggie Jambalaya\n *This dish is a good source of protein, fiber, and antioxidants. It is also relatively low in calories, which can be helpful if you are feeling bloated.\n* Salad with Assorted Fruits, Pepitas, and Dried Cranberries\n  * Salads are a good way to get a variety of nutrients. Fruits and vegetables provide vitamins, minerals, and antioxidants. Pepitas and dried cranberries are good sources of protein and fiber.\n**Dinner**\n* Roasted Vegetable Medley with Roasted Butternut Squash Soup  * Roasted vegetables are a good source of vitamins, minerals, and antioxidants. Butternut squash soup is a good source of fiber, which can help relieve constipation.\n* Tofu Cacciatore with Pasta\n  * Tofu is a good source of protein and iron. Pasta is a good source of carbohydrates, which can help provide energy. The combination of protein and carbohydrates can help regulate blood sugar levels and reduce fatigue.\n**Snacks**\n* Trail mix with nuts, seeds, and dried fruit\n  * Trail mix is a good source of protein, fiber, and antioxidants. It is also portable, which can be helpful if you are on the go.\n* Smoothie with Greek yogurt, berries, and spinach\n  * Smoothies are a good way to get a variety of nutrients in a single serving. Greek yogurt is a good source of protein and calcium. Berries are a good source of antioxidants. Spinach is a good source of iron."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "index": 0,
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE"
+        },
+        { "category": "HARM_CATEGORY_HARASSMENT", "probability": "NEGLIGIBLE" },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE"
+        }
+      ]
+    }
+  ],
+  "promptFeedback": {
+    "safetyRatings": [
+      {
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "probability": "NEGLIGIBLE"
+      },
+      { "category": "HARM_CATEGORY_HATE_SPEECH", "probability": "NEGLIGIBLE" },
+      { "category": "HARM_CATEGORY_HARASSMENT", "probability": "NEGLIGIBLE" },
+      {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "probability": "NEGLIGIBLE"
+      }
+    ]
+  }
+}
