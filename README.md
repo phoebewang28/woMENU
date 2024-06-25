@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# WoMenu: A Curated Menu for your Period
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Initial Design
+This project was brought to life during USC's AthenaHacks, where my team and I realized we wanted to improve the dining experience at USC. The USC Dining Menu was posted and updated online, and while often incredibly informative (includes all ingredients available at the salad bar or custom dish areas), was difficult to navigate. Having recently experienced a rough period season, we decided to work on WoMenu to help sift through the wordy online menu and provide students with sample meal plans that they could follow (or have friends/boyfriends help purchase) to ease period cramps!
 
-## Available Scripts
+## Front End
+Using **HTML**, **CSS**, **Javascript**, and **React**, I made a simple front end design based off of the Figma design my teammates made!
 
-In the project directory, you can run:
 
-### `npm start`
+## Back End
+### Filtering and Tagging
+First, we wanted to add a feature to allow users to filter through common allergens and "vitamins" so they could have more control over what they eat. For example, avoiding red meat, nuts, or salt. This is done by scraping menu information from the USC dining hall website using the Python library **Beautiful Soup** and storing the information in **Google Firebase** so it would include daily updates. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Meal Plan Creation
+It isn't straightforward making yummy meals from a list of ingredients, so we decided to feed the information into **Google Gemini** to create a set of custom meal plans that the user could follow. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Currently Not Really Functioning on Github...
+So, I'm still working on making it so that the front end and back end work together? Currently, they work separately and locally, and I still need to work on how to secure information. Currently a work in progress!
 
-### `npm test`
+# Goals
+- Make an actual functioning webpage/webapp
+- Expand to more than just the USC Dining Website
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
